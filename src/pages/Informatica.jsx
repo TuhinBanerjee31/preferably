@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { informaticaData } from '../data/informaticaData'
 
-const Adobe = () => {
+const Informatica = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={informaticaData} />
+      <CompanyCulture data={informaticaData} />
+      <CompanyReviews data={informaticaData} />
+      <CompanyOverviews data={informaticaData} />
+      <ArticleContainer data={informaticaData} />
+      <CompanySalaries data={informaticaData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Informatica

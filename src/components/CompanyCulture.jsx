@@ -1,13 +1,15 @@
 import React from "react";
 import { UserIcon } from "@heroicons/react/24/outline";
 
-const CompanyCulture = () => {
+const CompanyCulture = (props) => {
   return (
     <div className="bg-gray-100 px-6 py-10 flex justify-around items-center gap-y-5 flex-wrap">
       <div className="bg-white border-2 hover:shadow-lg cursor-pointer rounded-lg p-6 w-full max-w-sm">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-lg font-bold text-gray-800">Adobe Culture</h3>
+          <h3 className="text-lg font-bold text-gray-800">
+            {props.data.title} Culture
+          </h3>
           <div className="flex items-center space-x-1">
             <span className="text-xs text-gray-500 font-medium">
               Choice Employer
@@ -19,9 +21,9 @@ const CompanyCulture = () => {
         {/* Grade Section */}
         <div className="flex flex-col items-center gap-2">
           <div className="bg-green-500 text-white rounded-md w-24 h-24 flex items-center justify-center">
-            <span className="text-3xl font-bold">A+</span>
+            <span className="text-3xl font-bold">{props.data.cultureGrade}</span>
           </div>
-          <p className="text-gray-600 text-lg font-medium mt-2">4.8/5</p>
+          <p className="text-gray-600 text-lg font-medium mt-2">{props.data.culturePoint}/5</p>
 
           {/* Star Rating */}
           <div className="flex items-center gap-1 mt-1">
@@ -38,13 +40,16 @@ const CompanyCulture = () => {
         {/* Header */}
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-bold text-gray-800">
-            Adobe eNPS
-            <span className="ml-2 text-blue-500 cursor-pointer" title="Net Promoter Score tracks your employees' overall score to this question: `On a scale from 0-10, how likely are you to recommend working at your company to a friend?`">
+            {props.data.title} eNPS
+            <span
+              className="ml-2 text-blue-500 cursor-pointer"
+              title="Net Promoter Score tracks your employees' overall score to this question: `On a scale from 0-10, how likely are you to recommend working at your company to a friend?`"
+            >
               ℹ️
             </span>
           </h2>
           <span className="px-3 py-1 text-sm font-medium text-white bg-green-500 rounded-full">
-            Top 5%
+            Top {props.data.topPercentage}
           </span>
         </div>
 
@@ -61,14 +66,14 @@ const CompanyCulture = () => {
               style={{ clipPath: "inset(0 0 40% 0)" }}
             ></div>
             <div className="absolute inset-0 flex items-center justify-center font-bold text-xl">
-              76
+            {props.data.recommendRate}
             </div>
           </div>
 
           {/* Text Content */}
           <div className="text-center md:text-left">
             <p className="text-gray-700">
-              Adobe employees are 76% more likely to recommend Adobe as a great
+            {props.data.title} employees are {props.data.recommendRate}% more likely to recommend {props.data.title} as a great
               place to work.
             </p>
           </div>
@@ -77,15 +82,15 @@ const CompanyCulture = () => {
         {/* Stats */}
         <div className="flex justify-between mt-6 border-t pt-4 text-sm">
           <div className="text-center">
-            <p className="font-bold text-gray-800">82%</p>
+            <p className="font-bold text-gray-800">{props.data.promoters}%</p>
             <p className="text-gray-500">Promoters</p>
           </div>
           <div className="text-center">
-            <p className="font-bold text-gray-800">12%</p>
+            <p className="font-bold text-gray-800">{props.data.passives}%</p>
             <p className="text-gray-500">Passives</p>
           </div>
           <div className="text-center">
-            <p className="font-bold text-red-500">6%</p>
+            <p className="font-bold text-red-500">{props.data.detractors}%</p>
             <p className="text-gray-500">Detractors</p>
           </div>
         </div>
@@ -94,9 +99,9 @@ const CompanyCulture = () => {
       <div className="bg-white border-2 hover:shadow-lg cursor-pointer rounded-lg p-6 w-full max-w-sm">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-4">
-          <h3 className="text-lg font-bold text-gray-800">Adobe CEO</h3>
+          <h3 className="text-lg font-bold text-gray-800">{props.data.title} CEO</h3>
           <div className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
-            Top 5%
+            Top {props.data.topPercentage}
           </div>
         </div>
 
@@ -106,18 +111,18 @@ const CompanyCulture = () => {
           <div className="relative w-28 h-28">
             <div className="absolute inset-0 rounded-full border-4 border-green-500"></div>
             <img
-              src="https://cdn.comparably.com/28718259/u/25736_exec_adobe711611602755442.png"
-              alt="Shantanu Narayen"
+              src={props.data.ceoImg}
+              alt={props.data.ceo}
               className="w-full h-full rounded-full object-cover"
             />
           </div>
 
           {/* CEO Name */}
-          <h4 className="text-sm font-medium mt-4">Shantanu Narayen</h4>
+          <h4 className="text-sm font-medium mt-4">{props.data.ceo}</h4>
 
           {/* Score Section */}
           <p className="text-green-500 font-bold text-lg mt-2">
-            93 <span className="text-gray-500 font-normal">/ 100</span>
+          {props.data.ceoRate} <span className="text-gray-500 font-normal">/ 100</span>
           </p>
         </div>
       </div>
@@ -126,10 +131,10 @@ const CompanyCulture = () => {
         {/* Header */}
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold text-gray-800">
-            Diversity at Adobe
+            Diversity at {props.data.title}
           </h2>
           <span className="px-3 py-1 text-sm font-medium text-white bg-green-500 rounded-full">
-            Top 5%
+            Top {props.data.topPercentage}
           </span>
         </div>
 
@@ -137,13 +142,12 @@ const CompanyCulture = () => {
         <div className="flex items-center mt-4">
           {/* Icon/Grade */}
           <div className="bg-green-500 text-white font-bold text-2xl flex items-center justify-center h-16 w-32 rounded-md">
-            A+
+          {props.data.diversityGrade}
           </div>
 
           {/* Description */}
           <p className="text-gray-700 text-sm ml-4">
-            Diverse employees at Adobe have rated Perks And Benefits, CEO
-            Rating, and Happiness as the highest categories they have scored.
+          {props.data.diversityBio}
           </p>
         </div>
       </div>
@@ -152,10 +156,10 @@ const CompanyCulture = () => {
         {/* Header */}
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-semibold text-gray-800">
-            Women at Adobe
+            Women at {props.data.title}
           </h2>
           <span className="px-3 py-1 text-sm font-medium text-white bg-green-500 rounded-full">
-            Top 5%
+            Top {props.data.topPercentage}
           </span>
         </div>
 
@@ -163,14 +167,11 @@ const CompanyCulture = () => {
         <div className="flex items-center mt-4">
           {/* Icon/Grade */}
           <div className="bg-green-500 text-white font-bold text-2xl flex items-center justify-center h-16 w-32 rounded-md">
-            A+
+          {props.data.womenGrade}
           </div>
 
           {/* Description */}
-          <p className="text-gray-700 text-sm ml-4">
-            Women at Adobe have rated Perks And Benefits, CEO Rating, and
-            Happiness as the highest categories they have scored.
-          </p>
+          <p className="text-gray-700 text-sm ml-4">{props.data.womenBio}</p>
         </div>
       </div>
     </div>

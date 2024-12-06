@@ -1,0 +1,76 @@
+export const netflixData = {
+    coverPic: "https://cdn.comparably.com/27606131/p/26141/26141_profile_netflix.webp",
+    logo: "https://cdn.comparably.com/27606131/l/26141/26141_logo_netflix.png",
+    title: "Netflix",
+    bio: "Netflix is a global streaming entertainment service offering a diverse range of movies, TV series, documentaries, and games. Operating in over 190 countries, it has transformed how the world consumes entertainment.",
+    employees: "1300",
+    ratings: "4373",
+    ceoImg: "https://cdn.comparably.com/27606131/u/26141_exec_netflix319711159683479.png",
+    ceo: "Ted Sarandos",
+    cultureGrade: "A",
+    culturePoint: "4.5",
+    topPercentage: "5%",
+    recommendRate: "87",
+    promoters: "80",
+    passives: "10",
+    detractors: "10",
+    ceoRate: "92",
+    diversityGrade: "A",
+    diversityBio: "Netflix fosters a culture of inclusion and creativity, empowering diverse teams to tell stories that resonate globally.",
+    womenGrade: "A",
+    womenBio: "Netflix is recognized for its commitment to gender equality and empowering women through leadership roles and flexibility.",
+    totalReviews: "15000+",
+    positiveRate: 88,
+    negativeRate: 12,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The freedom and responsibility culture is unique, fostering innovation and ownership.",
+            dept: "Engineering",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "Leadership empowers employees with trust and decision-making autonomy.",
+            dept: "Marketing",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "How does Netflix support professional growth?",
+            answer: "Netflix offers opportunities to work on groundbreaking projects and learn from talented colleagues.",
+            dept: "Content Development",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/netflix/reviews",
+    overviewBody: "Founded in 1997 and headquartered in Los Gatos, California, Netflix began as a DVD rental service and evolved into the world’s leading streaming platform. With investments in original programming, cutting-edge technology, and global expansion, Netflix continues to redefine entertainment.",
+    highlightLine: "As a pioneer in streaming entertainment, Netflix leads the industry with over 230 million subscribers worldwide.",
+    mission: "To entertain the world by connecting people with the stories they love.",
+    vision: "To create the most engaging and widely accessible entertainment experience globally.",
+    values: "Inclusion, Innovation, Responsibility, and Excellence.",
+    overviewPic: "https://i.ytimg.com/vi/7Zk0njrazNs/maxresdefault.jpg",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/27606131/l/26141/26141_logo_netflix.png",
+            articleTitle: "How Netflix Revolutionized Streaming",
+            articleDate: "November 15th, 2024",
+            articleBio: "An exploration of Netflix's journey from DVD rentals to global streaming dominance.",
+            articleImg: "https://cdn.example.com/netflix/article1.jpg",
+            articleContent: "",
+            articleLink: "/netflix/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/27606131/l/26141/26141_logo_netflix.png",
+            articleTitle: "The Future of Netflix: Gaming and Beyond",
+            articleDate: "October 10th, 2024",
+            articleBio: "Netflix’s foray into gaming signals its next big move in entertainment.",
+            articleImg: "https://cdn.example.com/netflix/article2.jpg",
+            articleContent: "",
+            articleLink: "/netflix/article2"
+        },
+    ],
+    salariesp1: "The average annual salary at Netflix, including bonuses, is $150,000, with roles such as Engineers, Content Creators, and Marketing Managers earning above industry standards.",
+    salariesp2: "Employees rank Compensation and Benefits among the top 10% in the industry, citing generous packages and bonuses.",
+    salariesp3: "Salary data reflects contributions from over 3,000 employees globally, ensuring transparency and equity.",
+    salariesDate: "Last updated 10 days ago",
+};

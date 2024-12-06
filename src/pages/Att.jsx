@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { attData } from '../data/attData'
 
-const Adobe = () => {
+const Att = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={attData} />
+      <CompanyCulture data={attData} />
+      <CompanyReviews data={attData} />
+      <CompanyOverviews data={attData} />
+      <ArticleContainer data={attData} />
+      <CompanySalaries data={attData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Att

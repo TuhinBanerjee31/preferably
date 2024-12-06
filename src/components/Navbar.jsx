@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Button.css";
+import jobsmentorLogo from "../assets/jobsmentorLogo.png";
 
 const Navbar = () => {
   useEffect(() => {
@@ -14,15 +15,15 @@ const Navbar = () => {
           <Link
             reloadDocument
             to={"/"}
-            className="flex items-center space-x-3 rtl:space-x-reverse"
+            className="flex items-center space-x-2 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src={jobsmentorLogo}
               className="h-8"
-              alt="Preferably Logo"
+              alt="Jobsmentor Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-[#000514]">
-              Preferably
+              Jobsmentor
             </span>
           </Link>
           <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -87,10 +88,10 @@ const Navbar = () => {
               <li>
                 <Link
                   reloadDocument
-                  to={"/news"}
+                  to={"/articles"}
                   className="block py-2 px-3 text-[#666] rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0 md:dark:hover:text-[#000] md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  News
+                  Articles
                 </Link>
               </li>
             </ul>

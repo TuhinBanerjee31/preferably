@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const CompanyReviews = () => {
+const CompanyReviews = (props) => {
   const reviews = [
     {
       question:
@@ -30,13 +31,13 @@ const CompanyReviews = () => {
         {/* Text Section */}
         <div className="text-center lg:text-left">
           <h1 className="text-xl font-semibold text-gray-800">
-            Adobe Employee Reviews
+            {props.data.title} Employee Reviews
           </h1>
           <p className="mt-2 text-sm text-gray-600">
-            Out of 3988 Adobe employee reviews,{" "}
-            <span className="font-semibold">96%</span> were positive. The
-            remaining <span className="font-semibold">4%</span> were
-            constructive reviews with the goal of helping Adobe improve their
+            Out of {props.data.totalReviews} {props.data.title} employee reviews,{" "}
+            <span className="font-semibold">{props.data.positiveRate}%</span> were positive. The
+            remaining <span className="font-semibold">{props.data.negativeRate}%</span> were
+            constructive reviews with the goal of helping {props.data.title} improve their
             work culture.
           </p>
         </div>
@@ -49,15 +50,15 @@ const CompanyReviews = () => {
           <div className="relative w-full lg:w-72 h-6 rounded-full bg-gray-200">
             <div
               className="absolute top-0 left-0 h-full bg-green-500 rounded-l-full"
-              style={{ width: "96%" }}
+              style={{ width: `${props.data.positiveRate}%` }}
             ></div>
             <div
               className="absolute top-0 right-0 h-full bg-red-500 rounded-r-full"
-              style={{ width: "4%" }}
+              style={{ width: `${props.data.negativeRate}%` }}
             ></div>
             {/* Percentage Labels */}
             <span className="absolute left-[45%] top-1/2 transform -translate-y-1/2 text-white text-sm font-semibold">
-              96%
+            {props.data.positiveRate}%
             </span>
           </div>
           <div className="flex items-center">
@@ -68,10 +69,10 @@ const CompanyReviews = () => {
 
       <div className="p-6 bg-white shadow-md rounded-lg max-w-5xl mx-auto space-y-6 mt-4 border-t-4 border-[#22C55E]">
         <h2 className="text-xl font-semibold text-gray-800">
-          Positive Reviews From Adobe Employees
+          Positive Reviews From {props.data.title} Employees
         </h2>
 
-        {reviews.map((review, index) => (
+        {props.data.employeesReviews.map((review, index) => (
           <div
             key={index}
             className="border-b border-gray-200 pb-4 mb-4 last:border-none last:pb-0 last:mb-0"
@@ -79,15 +80,15 @@ const CompanyReviews = () => {
             <h3 className="text-gray-800 font-medium text-base">{review.question}</h3>
             <p className="text-gray-600 mt-2 text-base">{`“${review.answer}”`}</p>
             <p className="text-sm text-gray-500 mt-2">
-              Review from {review.department} - Anonymous Review
+              Review from {review.dept} - {review.reviewer}
             </p>
           </div>
         ))}
 
         <div className="text-center">
-          <a href="#" className="text-blue-500 font-medium hover:underline">
+          <Link reloadDocument to={props.data.moreReviewsLink} className="text-blue-500 font-medium hover:underline">
             Read More Positive Reviews
-          </a>
+          </Link>
         </div>
       </div>
     </div>

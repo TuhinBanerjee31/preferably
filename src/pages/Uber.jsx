@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { uberData } from '../data/uberData'
 
-const Adobe = () => {
+const Uber = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={uberData} />
+      <CompanyCulture data={uberData} />
+      <CompanyReviews data={uberData} />
+      <CompanyOverviews data={uberData} />
+      <ArticleContainer data={uberData} />
+      <CompanySalaries data={uberData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Uber

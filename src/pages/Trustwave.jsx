@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { trustwaveData } from '../data/trustwaveData'
 
-const Adobe = () => {
+const Trustwave = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={trustwaveData} />
+      <CompanyCulture data={trustwaveData} />
+      <CompanyReviews data={trustwaveData} />
+      <CompanyOverviews data={trustwaveData} />
+      <ArticleContainer data={trustwaveData} />
+      <CompanySalaries data={trustwaveData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Trustwave

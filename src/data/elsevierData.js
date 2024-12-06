@@ -1,0 +1,76 @@
+export const elsevierData = {
+    coverPic: "https://cdn.comparably.com/27525401/p/35625_profile_elsevier.png",
+    logo: "https://cdn.comparably.com/27525401/l/35625_logo_elsevier.png",
+    title: "Elsevier",
+    bio: "Elsevier is a global leader in information analytics for science and health, offering a wide range of journals, books, and online tools to empower researchers and healthcare professionals. Operating as part of the RELX Group, it has been at the forefront of academic publishing since 1880.",
+    employees: "10,900",
+    ratings: "14,253",
+    ceoImg: "https://cdn.comparably.com/28876901/u/35625_exec_elsevier174057217615492.png",
+    ceo: "Kumsal Bayazit",
+    cultureGrade: "A",
+    culturePoint: "4.5",
+    topPercentage: "10%",
+    recommendRate: "85",
+    promoters: "75",
+    passives: "15",
+    detractors: "10",
+    ceoRate: "92",
+    diversityGrade: "B+",
+    diversityBio: "Elsevier fosters diversity with a focus on empowering women and underrepresented groups in STEM fields. Its inclusive workplace has received accolades from employees worldwide.",
+    womenGrade: "B+",
+    womenBio: "Women at Elsevier appreciate its flexible work environment and initiatives promoting gender equality in leadership roles.",
+    totalReviews: "3,426",
+    positiveRate: 90,
+    negativeRate: 10,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The collaborative work culture and commitment to driving impactful research are inspiring.",
+            dept: "Publishing",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "The leadership values innovation and consistently prioritizes the needs of both employees and researchers.",
+            dept: "Analytics",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "How does Elsevier support professional growth?",
+            answer: "Elsevier offers excellent learning resources, training programs, and mentorship opportunities.",
+            dept: "Human Resources",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/elsevier/reviews",
+    overviewBody: "Founded in 1880 and headquartered in the Netherlands, Elsevier is a premier academic publishing and analytics company. It supports researchers and healthcare professionals with a wide portfolio of products and services, enabling groundbreaking discoveries across industries.",
+    highlightLine: "With over 140 years of expertise, Elsevier is at the heart of advancing scientific knowledge globally.",
+    mission: "To empower researchers and healthcare professionals in making impactful discoveries that improve global health and understanding.",
+    vision: "To be the leading provider of science and health information, driving innovation and insights for a better future.",
+    values: "Integrity, Innovation, Collaboration, and Impact.",
+    overviewPic: "https://media.glassdoor.com/l/ea/12/bd/54/we-create-opportunities-for-our-people-to-meet-through-social-events-and.jpg?signature=c9dbae7b340a8613a179d22618c2ae973ba6bd718b9392cff73d15b3bca489e2",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/27525401/l/35625_logo_elsevier.png",
+            articleTitle: "Elsevier's Role in Supporting Open Science",
+            articleDate: "October 15th, 2023",
+            articleBio: "A deep dive into Elsevier's initiatives to promote open access and collaborative research globally.",
+            articleImg: "https://cdn.example.com/elsevier/article1.jpg",
+            articleContent: "",
+            articleLink: "/elsevier/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/27525401/l/35625_logo_elsevier.png",
+            articleTitle: "The Future of Health Analytics",
+            articleDate: "May 2nd, 2024",
+            articleBio: "Exploring how Elsevier leverages AI and big data to transform healthcare outcomes.",
+            articleImg: "https://cdn.example.com/elsevier/article2.jpg",
+            articleContent: "",
+            articleLink: "/elsevier/article2"
+        },
+    ],
+    salariesp1: "The average annual salary at Elsevier ranges between $60,000 and $130,000, depending on the role and experience. Senior positions, such as Directors and Analysts, can earn significantly higher.",
+    salariesp2: "Elsevier offers competitive compensation packages, with comprehensive health benefits and bonuses reflecting employee performance.",
+    salariesp3: "Roles such as Data Scientist, Editor, and IT Specialists are well-compensated, showcasing Elsevier's commitment to attracting top talent.",
+    salariesDate: "Last updated 10 days ago",
+};

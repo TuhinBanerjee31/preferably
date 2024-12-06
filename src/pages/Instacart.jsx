@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { instacartData } from '../data/instacartData'
 
-const Adobe = () => {
+const Instacart = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={instacartData} />
+      <CompanyCulture data={instacartData} />
+      <CompanyReviews data={instacartData} />
+      <CompanyOverviews data={instacartData} />
+      <ArticleContainer data={instacartData} />
+      <CompanySalaries data={instacartData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Instacart

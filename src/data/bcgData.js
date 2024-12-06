@@ -1,0 +1,76 @@
+export const bcgData = {
+    coverPic: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/96864/companies/96864/profileImage_1663615698129.jpg",
+    logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/96864/companies/96864/logo_1663615653861.jpg",
+    title: "Boston Consulting Group",
+    bio: "Boston Consulting Group (BCG) is a global consulting firm that partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG's groundbreaking approach has delivered long-lasting solutions across industries and geographies. Established in 1963, BCG combines deep business insights with innovative technology to drive transformation.",
+    employees: "25000",
+    ratings: "18432",
+    ceoImg: "https://cdn.comparably.com/28596271/u/96864_exec_boston-consulting-group982944255185760.png",
+    ceo: "Christoph Schweizer",
+    cultureGrade: "A+",
+    culturePoint: "4.9",
+    topPercentage: "3%",
+    recommendRate: "88",
+    promoters: "85",
+    passives: "10",
+    detractors: "5",
+    ceoRate: "94",
+    diversityGrade: "A",
+    diversityBio: "BCG is committed to fostering an inclusive environment. Employees praise its leadership, development opportunities, and diverse culture.",
+    womenGrade: "A",
+    womenBio: "Women at BCG appreciate the strong mentorship, support for career growth, and flexibility in work-life balance.",
+    totalReviews: "5643",
+    positiveRate: 95,
+    negativeRate: 5,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The collaborative and inclusive culture is amazing. Everyone is genuinely invested in each other's success.",
+            dept: "Consulting",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "The leadership team is visionary and transparent. They actively engage with employees and value their input.",
+            dept: "Strategy",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "How does BCG support professional growth?",
+            answer: "BCG offers excellent training programs, mentoring, and opportunities to work on challenging projects that drive growth.",
+            dept: "Human Resources",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/boston-consulting-group/reviews",
+    overviewBody: "Founded in 1963, Boston Consulting Group is a leading management consulting firm that helps businesses and organizations achieve sustainable competitive advantage. With expertise across industries and cutting-edge digital solutions, BCG delivers innovation that matters. The firm is known for its unique ability to combine strategic insights with data-driven approaches to achieve results.",
+    highlightLine: "Since its founding in 1963, BCG has grown to become one of the most influential consulting firms globally with a workforce of over 25,000 professionals.",
+    mission: "To unlock the potential of those who advance the world. BCG partners with leaders to drive sustainable impact through innovative solutions.",
+    vision: "Empowering businesses and societies to achieve transformative results through a combination of strategy, technology, and deep expertise.",
+    values: "Integrity, Collaboration, Diversity, Impact, and Innovation.",
+    overviewPic: "https://officesnapshots.com/wp-content/uploads/2019/02/boston-consulting-group-offices-mumbai-5.jpg",
+    articles: [
+        {
+            logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/96864/companies/96864/logo_1663615653861.jpg",
+            articleTitle: "BCG's Commitment to Sustainability",
+            articleDate: "March 14th, 2023",
+            articleBio: "Learn how BCG is driving sustainability initiatives across industries and geographies.",
+            articleImg: "https://cdn.example.com/bcg/article1.jpg",
+            articleContent: "",
+            articleLink: "/bcg/article1"
+        },
+        {
+            logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/96864/companies/96864/logo_1663615653861.jpg",
+            articleTitle: "Innovating with Artificial Intelligence",
+            articleDate: "June 20th, 2023",
+            articleBio: "Discover how BCG is using AI to transform businesses and unlock new opportunities.",
+            articleImg: "https://cdn.example.com/bcg/article2.jpg",
+            articleContent: "",
+            articleLink: "/bcg/article2"
+        },
+    ],
+    salariesp1: "The average estimated annual salary, including base and bonus, at BCG is $140,000, or $67 per hour, while the estimated median salary is $150,000, or $72 per hour. The highest-paid position is a Senior Partner at $350,000 annually, and the lowest is an Administrative Assistant at $50,000 annually.",
+    salariesp2: "Employees rank Compensation in the Top 5% of similar-sized companies globally, with top-tier benefits and bonuses that reflect the firm's commitment to excellence.",
+    salariesp3: "Salaries contributed by employees include roles like Consultant, Analyst, and Partner. Data represents over 1,500 salary records from BCG employees.",
+    salariesDate: "Last updated 15 days ago",
+};

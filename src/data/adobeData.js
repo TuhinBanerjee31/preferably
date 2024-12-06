@@ -1,0 +1,76 @@
+export const adobeData = {
+    coverPic: "https://cdn.comparably.com/27157874/p/25736_profile_adobe.png",
+    logo: "https://cdn.comparably.com/27157874/l/25736_logo_adobe.png",
+    title: "Adobe",
+    bio: "Adobe is everywhere you look—from movies to advertisements and mobile apps. Our products reach all corners of the world and so will your ideas. Adobe believes creativity empowers transformation. Founded 40 years ago on the simple idea of creating innovative products that change the world, Adobe's groundbreaking technology is empowering everyone, everywhere to imagine, create, and bring any digital experience to life. Our business strategy focuses on unleashing creativity, accelerating document productivity, and powering digital businesses through our three clouds - Adobe Creative Cloud, Document Cloud, and Experience Cloud. Our solutions give customers a real competitive advantage, enabling them to engage their constituents across every digital touch point. Underpinning our clouds, is Firefly and Sensei, our artificial intelligence platform.",
+    employees: "1149",
+    ratings: "28224",
+    ceoImg: "https://cdn.comparably.com/28718259/u/25736_exec_adobe711611602755442.png",
+    ceo: "Shantanu Narayen",
+    cultureGrade: "A+",
+    culturePoint: "4.8",
+    topPercentage: "5%",
+    recommendRate: "76",
+    promoters: "82",
+    passives: "12",
+    detractors: "6",
+    ceoRate: "93",
+    diversityGrade: "A+",
+    diversityBio: "Diverse employees at Adobe have rated Perks And Benefits, CEO Rating, and Happiness as the highest categories they have scored.",
+    womenGrade: "A+",
+    womenBio: "Women at Adobe have rated Perks And Benefits, CEO Rating, and Happiness as the highest categories they have scored.",
+    totalReviews: "3988",
+    positiveRate: 96,
+    negativeRate: 4,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "We have the culture of a fun family environment. We all come to work, work hard and do the best we can and have fun while we do it.",
+            dept: "Customer Support",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "They make you feel like you are a part of a family! They make coming to work fun!",
+            dept: "Customer Support",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "An amazing vision for the company, and transparent about where we are going. I have confidence every day I step into work. I don't know of many tech companies where the leadership team is always available to talk to, especially our CEO who will take the time to stop and say hi.",
+            dept: "Sales",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/adobe/reviews",
+    overviewBody: "Adobe is everywhere you look—from movies to advertisements and mobile apps. Our products reach all corners of the world and so will your ideas. Adobe believes creativity empowers transformation. Founded 40 years ago on the simple idea of creating innovative products that change the world, Adobe's groundbreaking technology is empowering everyone, everywhere to imagine, create, and bring any digital experience to life. Our business strategy focuses on unleashing creativity, accelerating document productivity, and powering digital businesses through our three clouds - Adobe Creative Cloud, Document Cloud, and Experience Cloud. Our solutions give customers a real competitive advantage, enabling them to engage their constituents across every digital touch point. Underpinning our clouds, is Firefly and Sensei, our artificial intelligence platform.",
+    highlightLine: "Adobe was founded in 1982 and its current CEO is Shantanu Narayen. Since its inception 42 years ago, Adobe has grown to 30000 employees.",
+    mission: "Let's create experiences that matter. Adobe is the global leader in digital media and digital marketing solutions. Our creative, marketing, and document solutions empower everyone – from emerging artists to global brands – to bring digital creations to life and deliver immersive, compelling experiences to the right person at the right moment for the best results. In short, Adobe is everywhere, and we’re changing the world through digital experiences.",
+    vision: "Changing the world through personalized digital experiences. Founded 40 years ago on the simple idea of creating innovative products that change the world, Adobe offers groundbreaking technology that empowers everyone, everywhere to imagine, create, and bring any digital experience to life.",
+    values: "Create the Future, Own the Outcome, Raise the Bar, Be Genuine.",
+    overviewPic: "https://www.officelovin.com/wp-content/uploads/2015/09/adobe-san-francisco-office-2.jpg",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/27157874/l/25736_logo_adobe.png",
+            articleTitle: "Think you know Adobe?",
+            articleDate: "January 26th, 2021",
+            articleBio: "There's more than meets the eye when it comes to Adobe. Take the quiz and see how well you know us!",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/25736/25736-1611677472418.png",
+            articleContent: "",
+            articleLink: "/adobe/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/27157874/l/25736_logo_adobe.png",
+            articleTitle: "Think you know Adobe?",
+            articleDate: "January 26th, 2021",
+            articleBio: "There's more than meets the eye when it comes to Adobe. Take the quiz and see how well you know us!",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/25736/25736-1611677472418.png",
+            articleContent: "",
+            articleLink: "/adobe/article2"
+        },
+    ],
+    salariesp1: "How much do people at Adobe get paid? See the latest salaries by department and job title. The average estimated annual salary, including base and bonus, at Adobe is $125,912, or $60 per hour, while the estimated median salary is $134,676, or $64 per hour. At Adobe, the highest paid job is a Director of Engineering at $301,250 annually and the lowest is an Office Manager at $58,944 annually. Average Adobe salaries by department include: Design at $155,238, Customer Support at $119,955, IT at $142,627, and Communications at $232,995. Half of Adobe salaries are above $134,676.",
+    salariesp2: "1108 employees at Adobe rank their Compensation in the Top 5% of similar sized companies in the US (based on 2988 ratings) while 1089 employees at Adobe rank their Perks And Benefits in the Top 5% of similar sized companies in the US (based on 1735 ratings).",
+    salariesp3: "Salaries contributed from Adobe employees include job titles like Director of Engineering, Senior Developer, Developer, and Sales Engineer. Comparably data has a total of 135 salary records from Adobe employees.",
+    salariesDate: "Last updated 23 days ago",
+}

@@ -13,17 +13,29 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link to={"/about"} className=" hover:underline">
+                  <Link
+                    reloadDocument
+                    to={"/about"}
+                    className=" hover:underline"
+                  >
                     About
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link to={"/news"} className="hover:underline">
-                    News
+                  <Link
+                    reloadDocument
+                    to={"/article"}
+                    className="hover:underline"
+                  >
+                    Article
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link to={"/contact-us"} className="hover:underline">
+                  <Link
+                    reloadDocument
+                    to={"/contact-us"}
+                    className="hover:underline"
+                  >
                     Contact Us
                   </Link>
                 </li>
@@ -35,20 +47,28 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <Link to={"/companies"} className="hover:underline">
+                  <Link
+                    reloadDocument
+                    to={"/companies"}
+                    className="hover:underline"
+                  >
                     Companies
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link to={"/salaries"} className="hover:underline">
+                  <Link
+                    reloadDocument
+                    to={"/salaries"}
+                    className="hover:underline"
+                  >
                     Salaries
                   </Link>
                 </li>
-                <li className="mb-4">
+                {/* <li className="mb-4">
                   <Link to={"/reviews"} className="hover:underline">
                     Reviews
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
@@ -77,8 +97,11 @@ const Footer = () => {
         </div>
         <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2023 <Link to={"/"}>Preferably™</Link>. All Rights
-            Reserved.
+            © 2023{" "}
+            <Link reloadDocument to={"/"}>
+              Jobsmentor™
+            </Link>
+            . All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a

@@ -7,21 +7,21 @@ import CompanyOverviews from '../components/CompanyOverviews'
 import ArticleContainer from '../components/ArticleContainer'
 import CompanySalaries from '../components/CompanySalaries'
 import Footer from "../components/Footer"
-import { adobeData } from '../data/adobeData'
+import { chewyData } from '../data/chewyData'
 
-const Adobe = () => {
+const Chewy = () => {
   return (
     <div>
       <Navbar />
-      <CompanyHeader data={adobeData} />
-      <CompanyCulture data={adobeData} />
-      <CompanyReviews data={adobeData} />
-      <CompanyOverviews data={adobeData} />
-      <ArticleContainer data={adobeData} />
-      <CompanySalaries data={adobeData} />
+      <CompanyHeader data={chewyData} />
+      <CompanyCulture data={chewyData} />
+      <CompanyReviews data={chewyData} />
+      <CompanyOverviews data={chewyData} />
+      <ArticleContainer data={chewyData} />
+      <CompanySalaries data={chewyData} />
       <Footer />
     </div>
   )
 }
 
-export default Adobe
+export default Chewy

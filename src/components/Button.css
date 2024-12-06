@@ -33,3 +33,9 @@
   background: var(--color);
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .button-89 {
+    font-size: 12px;
+  }
+}

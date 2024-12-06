@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CompanyCard = (props) => {
   return (
-    <Link to={props.data.redirectLink} className="flex items-center justify-center">
+    <Link reloadDocument to={props.data.redirectLink} className="flex items-center justify-center">
       {/* CompanyCard container */}
       <div className="relative bg-white border-2 hover:shadow-md transition-all cursor-pointer rounded-lg p-6 flex flex-col items-center w-96">
         {/* Hexagon badge */}

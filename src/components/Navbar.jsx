@@ -27,7 +27,7 @@ const Navbar = () => {
             </span>
           </Link>
           <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button className="button-89">Contact Us</button>
+            <Link reloadDocument to={"/contact-us"} className="button-89">Contact Us</Link>
             <button
               data-collapse-toggle="navbar-sticky"
               type="button"

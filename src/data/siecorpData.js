@@ -67,10 +67,10 @@ export const siecorpData = {
     },
     {
         logo: siecorpLogo,
-        articleTitle: "Siecorp's Role in Sustainable Energy",
-        articleDate: "October 5th, 2023",
+        articleTitle: "Siecorp Creating Opportunities Across Borders",
+        articleDate: "November 1st, 2023",
         articleBio:
-          "Explore how Siecorp is leading the way in sustainable energy projects across industries.",
+          "Get a view on how Siecorp is creating impact across the broders.",
         articleImg: "https://cdn.example.com/siecorp/article1.jpg",
         articleContent: "",
         articleLink: "/siecorp/article2",

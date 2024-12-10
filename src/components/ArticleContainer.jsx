@@ -9,9 +9,9 @@ const ArticleContainer = (props) => {
 
       <div className='max-w-screen-xl flex flex-col md:flex-row mx-auto gap-7 px-5'>
         {props.data.articles.map((item, index) => (
-          <Link reloadDocument to={item.articleLink} key= {index}>
+          <div className='cursor-wait' key= {index}>
             <ArticleCard article={item} />
-          </Link>
+          </div>
         ))}
       </div>
     </div>

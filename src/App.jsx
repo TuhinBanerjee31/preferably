@@ -1,12 +1,20 @@
 import "./App.css";
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import CompanyList from './components/CompanyList'
-import Category from './components/Category'
-import Footer from './components/Footer'
-import Newsletter from './components/Newsletter'
+import { useEffect } from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CompanyList from "./components/CompanyList";
+import Category from "./components/Category";
+import Footer from "./components/Footer";
+import Newsletter from "./components/Newsletter";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-X5SGY9ESYB");
 
 function App() {
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
   return (
     <>
       <Navbar />

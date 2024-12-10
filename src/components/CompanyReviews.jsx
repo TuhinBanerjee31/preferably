@@ -86,9 +86,9 @@ const CompanyReviews = (props) => {
         ))}
 
         <div className="text-center">
-          <Link reloadDocument to={props.data.moreReviewsLink} className="text-blue-500 font-medium hover:underline">
+          <div className="text-blue-500 font-medium hover:underline cursor-wait">
             Read More Positive Reviews
-          </Link>
+          </div>
         </div>
       </div>
     </div>

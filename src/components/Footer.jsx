@@ -24,7 +24,7 @@ const Footer = () => {
                 <li className="mb-4">
                   <Link
                     reloadDocument
-                    to={"/article"}
+                    to={"/articles"}
                     className="hover:underline"
                   >
                     Article

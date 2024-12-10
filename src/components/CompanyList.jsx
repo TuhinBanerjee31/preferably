@@ -1,6 +1,7 @@
 import React from "react";
 import CompanyCard from "./CompanyCard";
 import { companyCardData } from "../data/companyCardData";
+import { Link } from "react-router-dom";
 
 const CompanyList = () => {
   return (
@@ -16,7 +17,7 @@ const CompanyList = () => {
         ))}
       </div>
       <div className="flex justify-center">
-        <button className="button-89">Show More</button>
+        <Link reloadDocument to={"/companies"} className="button-89">Show More</Link>
       </div>
     </div>
   );

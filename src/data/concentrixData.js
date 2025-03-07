@@ -1,0 +1,76 @@
+export const concentrixData = {
+    coverPic: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/100260/companies/100260/profileImage_1659532730699.jpg",
+    logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/36759/companies/36759/logo_1713812401261.jpg",
+    title: "Concentrix",
+    bio: "Concentrix is a global leader in customer experience solutions and technology, serving some of the world’s best-known brands. With a presence in over 40 countries, Concentrix delivers innovative and high-value business services that transform the customer experience. Concentrix focuses on helping businesses enhance their customer engagement, drive loyalty, and improve overall performance. The company leverages AI, analytics, and automation to optimize operations and deliver exceptional customer interactions.",
+    employees: "290000",
+    ratings: "15000",
+    ceoImg: "https://cdn.comparably.com/28998026/u/36759_exec_concentrix972039643413558.png",
+    ceo: "Chris Caldwell",
+    cultureGrade: "A",
+    culturePoint: "4.5",
+    topPercentage: "10%",
+    recommendRate: "72",
+    promoters: "78",
+    passives: "15",
+    detractors: "7",
+    ceoRate: "90",
+    diversityGrade: "A",
+    diversityBio: "Diverse employees at Concentrix have rated Perks And Benefits, Teamwork, and Work-Life Balance as the highest categories they have scored.",
+    womenGrade: "A",
+    womenBio: "Women at Concentrix have rated Perks And Benefits, Teamwork, and Work-Life Balance as the highest categories they have scored.",
+    totalReviews: "5000",
+    positiveRate: 94,
+    negativeRate: 6,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "We have a collaborative and inclusive work environment that fosters growth and development.",
+            dept: "Customer Support",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The leadership encourages open communication and teamwork, making work more enjoyable.",
+            dept: "Operations",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "The leadership team is approachable and genuinely cares about employee well-being and career growth.",
+            dept: "Sales",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/concentrix/reviews",
+    overviewBody: "Concentrix is a global leader in customer experience solutions and technology, serving some of the world’s best-known brands. With a presence in over 40 countries, Concentrix delivers innovative and high-value business services that transform the customer experience. Concentrix focuses on helping businesses enhance their customer engagement, drive loyalty, and improve overall performance. The company leverages AI, analytics, and automation to optimize operations and deliver exceptional customer interactions.",
+    highlightLine: "Concentrix was founded in 1983 and its current CEO is Chris Caldwell. Since its inception, Concentrix has grown to over 290,000 employees worldwide.",
+    mission: "To be the greatest customer engagement services company in the world, rich in diversity and talent.",
+    vision: "We design, build, and run game-changing customer experiences that help brands grow, improve performance, and delight customers.",
+    values: "Innovate, Be Bold, Be Fanatical, Wow Customers, All in All the Time.",
+    overviewPic: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/36759/36759-1722874324654.png",
+    articles: [
+        {
+            logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/36759/companies/36759/logo_1713812401261.jpg",
+            articleTitle: "Concentrix: Transforming Customer Experience",
+            articleDate: "February 15th, 2023",
+            articleBio: "Discover how Concentrix is reshaping customer experience with AI-driven solutions.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/12345/12345-1611677472418.png",
+            articleContent: "",
+            articleLink: "/concentrix/article1"
+        },
+        {
+            logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/36759/companies/36759/logo_1713812401261.jpg",
+            articleTitle: "Why Concentrix is a Great Place to Work",
+            articleDate: "March 10th, 2023",
+            articleBio: "A deep dive into the work culture, career opportunities, and employee experiences at Concentrix.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/12345/12345-1611677472418.png",
+            articleContent: "",
+            articleLink: "/concentrix/article2"
+        },
+    ],
+    salariesp1: "How much do people at Concentrix get paid? See the latest salaries by department and job title. The average estimated annual salary, including base and bonus, at Concentrix is $110,450, or $53 per hour, while the estimated median salary is $118,000, or $56 per hour. At Concentrix, the highest paid job is a Senior Director at $250,000 annually and the lowest is a Customer Support Representative at $40,000 annually. Average Concentrix salaries by department include: Operations at $115,000, IT at $125,000, and Sales at $130,000. Half of Concentrix salaries are above $118,000.",
+    salariesp2: "1200 employees at Concentrix rank their Compensation in the Top 15% of similar sized companies in the US (based on 3000 ratings) while 1100 employees rank their Perks And Benefits in the Top 10% of similar sized companies in the US (based on 2000 ratings).",
+    salariesp3: "Salaries contributed from Concentrix employees include job titles like Senior Director, Operations Manager, Developer, and Customer Support Representative. Comparably data has a total of 180 salary records from Concentrix employees.",
+    salariesDate: "Last updated 20 days ago",
+};

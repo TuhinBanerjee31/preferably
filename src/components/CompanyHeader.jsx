@@ -40,11 +40,11 @@ const CompanyHeader = (props) => {
 
           {/* CEO Info */}
           <div className="flex items-center border-l-4 gap-3 pl-3">
-            <img
+            {/* <img
               src={props.data.ceoImg}
               alt="CEO"
               className="w-16 rounded-full"
-            />
+            /> */}
             <div>
               <p className="text-gray-500 text-xs font-semibold">CEO</p>
               <h5 className="text-sm font-medium">{props.data.ceo}</h5>

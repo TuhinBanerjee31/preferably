@@ -1,0 +1,76 @@
+export const kubraData = {
+    coverPic: "https://cdn.comparably.com/28477356/p/455955_profile_kubra.png",
+    logo: "https://cdn.comparably.com/28477356/l/455955/logo.jpg",
+    title: "KUBRA",
+    bio: "KUBRA provides customer interaction management solutions, offering a comprehensive suite of AI-based billing and payment solutions for businesses across various industries, including utilities, insurance, financial services, and government entities.",
+    employees: "500",
+    ratings: "1224",
+    ceoImg: "https://cdn.comparably.com/28898844/u/455955_exec_kubra-data-transfer478578872928093.png",
+    ceo: "Rick Watkin",
+    cultureGrade: "A",
+    culturePoint: "4.3",
+    topPercentage: "10%",
+    recommendRate: "86",
+    promoters: "86",
+    passives: "10",
+    detractors: "4",
+    ceoRate: "93",
+    diversityGrade: "A",
+    diversityBio: "Diverse employees at KUBRA have rated the company's commitment to inclusion and the supportive work environment as key strengths.",
+    womenGrade: "A",
+    womenBio: "Women at KUBRA have praised the company's flexible work policies and opportunities for career advancement.",
+    totalReviews: "1224",
+    positiveRate: 94,
+    negativeRate: 6,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The company's commitment to creating a welcoming and inclusive environment makes it a great place to work.",
+            dept: "Human Resources",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "KUBRA fosters a collaborative atmosphere where everyone's contributions are valued.",
+            dept: "Product Development",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "The leadership team is approachable and genuinely cares about employee well-being and professional growth.",
+            dept: "Customer Support",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/kubra/reviews",
+    overviewBody: "KUBRA provides customer interaction management solutions, offering a comprehensive suite of AI-based billing and payment solutions for businesses across various industries, including utilities, insurance, financial services, and government entities.",
+    highlightLine: "KUBRA was founded in 1992 and its current CEO is Rick Watkin. Since its inception, KUBRA has grown to 500 employees.",
+    mission: "To provide innovative customer experience management solutions that empower businesses to enhance their interactions with customers.",
+    vision: "To be the leading provider of customer interaction solutions, leveraging technology to transform the way businesses engage with their customers.",
+    values: "Innovation, Customer Focus, Integrity, Collaboration.",
+    overviewPic: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/455955/455955/kubra-2-2023-awards1684248540462_6521.jpg",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/28477356/l/455955/logo.jpg",
+            articleTitle: "KUBRA's Innovative Approach to Billing Solutions",
+            articleDate: "February 15th, 2023",
+            articleBio: "KUBRA continues to lead the industry with its AI-based billing and payment solutions, transforming customer interactions.",
+            articleImg: "https://www.kubra.com/wp-content/uploads/2023/02/innovative-billing-solutions.jpg",
+            articleContent: "",
+            articleLink: "/kubra/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/28477356/l/455955/logo.jpg",
+            articleTitle: "How KUBRA is Enhancing Customer Engagement",
+            articleDate: "March 10th, 2023",
+            articleBio: "Through advanced technology and a customer-centric approach, KUBRA is redefining customer engagement strategies.",
+            articleImg: "https://www.kubra.com/wp-content/uploads/2023/03/customer-engagement.jpg",
+            articleContent: "",
+            articleLink: "/kubra/article2"
+        },
+    ],
+    salariesp1: "How much do people at KUBRA get paid? While specific salary data is limited, employees have reported a fair pay score of 3 out of 5, indicating a generally positive perception of compensation fairness.",
+    salariesp2: "Employees at KUBRA have rated their Compensation positively, reflecting satisfaction with the rewards they receive.",
+    salariesp3: "Salaries contributed from KUBRA employees include various job titles across different departments, providing insights into the company's compensation structure.",
+    salariesDate: "Last updated 1.2 years ago",
+};

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ArticleCard = (props) => {
   return (
-    <div className='max-w-screen-sm border-2 py-3 px-5 rounded-md cursor-pointer'>
+    <div className='w-[25rem] md:w-[35rem] border-2 mx-auto py-3 px-5 col-span-2 lg:col-span-1 rounded-md cursor-pointer'>
       <div className='flex gap-4 items-center'>
         <div className='w-12 p-2 border-2 rounded-md'><img src={props.article.logo} /></div>
 

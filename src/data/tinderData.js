@@ -1,0 +1,76 @@
+export const tinderData = {
+    coverPic: "https://cdn.comparably.com/27548492/p/16715_profile_tinder.png",
+    logo: "https://cdn.comparably.com/27548492/l/16715_logo_tinder.png",
+    title: "Tinder",
+    bio: "Tinder is the world's most popular dating app, known for its innovative swipe feature and global reach. It connects millions of people every day, helping them meet new people for dating, friendships, and networking. The company prioritizes safety, inclusivity, and user engagement to create meaningful connections.",
+    employees: "800",
+    ratings: "12000",
+    ceoImg: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/16715/companies/16715/people/ceo_1722446074765.jpg",
+    ceo: "Faye Iosotaluno",
+    cultureGrade: "A",
+    culturePoint: "4.3",
+    topPercentage: "10%",
+    recommendRate: "85",
+    promoters: "80",
+    passives: "12",
+    detractors: "8",
+    ceoRate: "90",
+    diversityGrade: "A",
+    diversityBio: "Tinder's diverse employees have rated Perks & Benefits, CEO Rating, and Work Culture as the highest-rated categories.",
+    womenGrade: "A",
+    womenBio: "Women at Tinder have rated Work-Life Balance, Perks & Benefits, and Compensation as the highest-rated categories.",
+    totalReviews: "2000",
+    positiveRate: 95,
+    negativeRate: 5,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "Tinder fosters a dynamic and creative culture where innovation and diversity thrive.",
+            dept: "Product",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The team is highly collaborative, and leadership genuinely values employee well-being.",
+            dept: "Marketing",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "Tinder's leadership team encourages innovation and fosters an inclusive work environment.",
+            dept: "Engineering",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/tinder/reviews",
+    overviewBody: "Tinder is a leading dating and social discovery app, revolutionizing how people meet and connect globally. With its signature swipe feature and AI-powered matchmaking, Tinder has transformed digital dating, bringing millions of users together every day.",
+    highlightLine: "Tinder was founded in 2012 and has grown into one of the largest dating platforms worldwide, with millions of active users.",
+    mission: "To help people connect, build relationships, and find meaningful connections in a fun and engaging way.",
+    vision: "To be the world's most trusted and engaging social discovery platform, fostering meaningful relationships.",
+    values: "Inclusivity, Innovation, Connection, Fun, Safety.",
+    overviewPic: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/16715/16715/tinder-q1-2022-awards1644522200345_1978.jpg",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/27548492/l/16715_logo_tinder.png",
+            articleTitle: "How Tinder is Revolutionizing Online Dating",
+            articleDate: "January 20th, 2024",
+            articleBio: "Tinder continues to innovate with AI-driven matchmaking and user engagement features.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/67890/67890-1611677472418.png",
+            articleContent: "",
+            articleLink: "/tinder/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/27548492/l/16715_logo_tinder.png",
+            articleTitle: "Tinder’s Approach to Safety and Inclusivity",
+            articleDate: "February 15th, 2024",
+            articleBio: "Tinder introduces new safety features and AI moderation tools to enhance user experience.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/67890/67890-1611677472418.png",
+            articleContent: "",
+            articleLink: "/tinder/article2"
+        },
+    ],
+    salariesp1: "How much do people at Tinder get paid? See the latest salaries by department and job title. The average estimated annual salary, including base and bonus, at Tinder is $130,000, or $63 per hour, while the estimated median salary is $140,000, or $67 per hour. At Tinder, the highest-paid job is a Director of Engineering at $250,000 annually, and the lowest is a Customer Support Representative at $50,000 annually. Average Tinder salaries by department include: Engineering at $155,000, Product at $135,000, Marketing at $120,000, and Sales at $145,000. Half of Tinder salaries are above $140,000.",
+    salariesp2: "800 employees at Tinder rank their Compensation in the Top 10% of similar-sized companies in the US (based on 1500 ratings), while 750 employees rank their Perks & Benefits in the Top 10% (based on 1400 ratings).",
+    salariesp3: "Salaries contributed from Tinder employees include job titles like Senior Developer, Product Manager, Marketing Manager, and UX Designer. Comparably data has a total of 250 salary records from Tinder employees.",
+    salariesDate: "Last updated 10 days ago",
+};

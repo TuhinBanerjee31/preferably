@@ -77,33 +77,33 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link to={'/policy'} className="hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link to={'/licensing'} className="hover:underline">
                     Licensing
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <Link to={'/terms-conditions'} className="hover:underline">
                     Terms &amp; Conditions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
+        <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center justify-center">
+          <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center tracking-widest">
             © 2023{" "}
             <Link reloadDocument to={"/"}>
               Jobsmentor™
             </Link>
             . All Rights Reserved.
           </span>
-          <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+          {/* <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a
               href="#"
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -195,7 +195,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Dribbble account</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>

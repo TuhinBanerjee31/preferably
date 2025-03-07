@@ -1,4 +1,5 @@
 import siecorpLogo from "../assets/siecorp_logo.png"
+import kpngLogo from "../assets/kpngLogo.png"
 
 export const companyCardData = [
     {
@@ -17,10 +18,10 @@ export const companyCardData = [
     },
     {
         id: 3,
-        title: "Siecorp",
-        logo: siecorpLogo,
-        redirectLink: "/siecorp",
-        location: "Temasek Blvd, SG"
+        title: "KPNG",
+        logo: kpngLogo,
+        redirectLink: "/kpng",
+        location: "Riyadh, SA"
     },
     {
         id: 4,
@@ -84,5 +85,47 @@ export const companyCardData = [
         logo: "https://cdn.comparably.com/27567131/l/27320_logo_chewy.png",
         redirectLink: "/chewy",
         location: "Plantation, FL"
-    }
+    },
+    {
+        id: 13,
+        title: "Siecorp",
+        logo: siecorpLogo,
+        redirectLink: "/siecorp",
+        location: "Temasek Blvd, SG"
+    },
+    {
+        id: 14,
+        title: "Concentrix",
+        logo: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/36759/companies/36759/logo_1713812401261.jpg",
+        redirectLink: "/concentrix",
+        location: "Newark, CA"
+    },
+    {
+        id: 15,
+        title: "Chegg",
+        logo: "https://cdn.comparably.com/27579934/l/17407_logo_chegg.png",
+        redirectLink: "/chegg",
+        location: "Sants Clara, CA"
+    },
+    {
+        id: 16,
+        title: "Salesforce",
+        logo: "https://cdn.comparably.com/27498330/l/salesforce-logo.png",
+        redirectLink: "/salesforce",
+        location: "San Francisco, CA"
+    },
+    {
+        id: 17,
+        title: "Kubra",
+        logo: "https://cdn.comparably.com/28477356/l/455955/logo.jpg",
+        redirectLink: "/kubra",
+        location: "Tempe, AZ"
+    },
+    {
+        id: 18,
+        title: "Tinder",
+        logo: "https://cdn.comparably.com/27548492/l/16715_logo_tinder.png",
+        redirectLink: "/tinder",
+        location: "Los Angeles, CA"
+    },
 ]

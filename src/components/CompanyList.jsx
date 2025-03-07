@@ -10,14 +10,19 @@ const CompanyList = () => {
         Best Places to Work For
       </h2>
       <div className="pt-20 pb-10 flex flex-wrap justify-center gap-10 px-5">
-        {companyCardData.map((item) => (
-          <div key={item.id}>
-            <CompanyCard data={item} />
-          </div>
-        ))}
+        {companyCardData.map(
+          (item) =>
+            item.id <= 9 && (
+              <div key={item.id}>
+                <CompanyCard data={item} />
+              </div>
+            )
+        )}
       </div>
       <div className="flex justify-center">
-        <Link reloadDocument to={"/companies"} className="button-89">Show More</Link>
+        <Link reloadDocument to={"/companies"} className="button-89">
+          Show More
+        </Link>
       </div>
     </div>
   );

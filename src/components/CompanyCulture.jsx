@@ -111,9 +111,9 @@ const CompanyCulture = (props) => {
           <div className="relative w-28 h-28">
             <div className="absolute inset-0 rounded-full border-4 border-green-500"></div>
             <img
-              src={props.data.ceoImg}
+              src="https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png"
               alt={props.data.ceo}
-              className="w-full h-full rounded-full object-cover"
+              className="w-full h-full rounded-full object-cover p-5"
             />
           </div>
 

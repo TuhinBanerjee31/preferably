@@ -16,7 +16,7 @@ const CompanyCard = (props) => {
           <img
             src={props.data.logo}
             alt={props.data.title}
-            className="w-16 h-16"
+            className="w-auto h-16"
           />
         </div>
 

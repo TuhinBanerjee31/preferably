@@ -1,0 +1,76 @@
+export const cheggData = {
+    coverPic: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/17407/companies/17407/profileImage_1736280108773.jpg",
+    logo: "https://cdn.comparably.com/27579934/l/17407_logo_chegg.png",
+    title: "Chegg",
+    bio: "Chegg is a leading student-first learning platform dedicated to improving student outcomes. It provides digital and physical textbook rentals, online tutoring, and other student services designed to make education more accessible and affordable. Chegg is focused on leveraging technology to support students in their academic journey, helping them master subjects, enhance their skills, and succeed in their careers.",
+    employees: "2400",
+    ratings: "8200",
+    ceoImg: "https://s3-us-west-1.amazonaws.com/upload.comparably.com/17407/companies/17407/people/ceo_804577_1716090098754.jpg",
+    ceo: "Dan Rosensweig",
+    cultureGrade: "A",
+    culturePoint: "4.6",
+    topPercentage: "10%",
+    recommendRate: "74",
+    promoters: "79",
+    passives: "14",
+    detractors: "7",
+    ceoRate: "91",
+    diversityGrade: "A",
+    diversityBio: "Diverse employees at Chegg have rated Work-Life Balance, CEO Rating, and Perks & Benefits as the highest-rated categories.",
+    womenGrade: "A",
+    womenBio: "Women at Chegg have rated Perks & Benefits, Teamwork, and Work-Life Balance as the highest-rated categories.",
+    totalReviews: "3500",
+    positiveRate: 95,
+    negativeRate: 5,
+    employeesReviews: [
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The company genuinely cares about students and employees, and the leadership supports work-life balance.",
+            dept: "Product",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What is most positive about the culture and environment at your company?",
+            answer: "The mission-driven approach of helping students succeed keeps the team motivated and passionate.",
+            dept: "Marketing",
+            reviewer: "Anonymous Review"
+        },
+        {
+            question: "What do you like best about the leadership team?",
+            answer: "Transparent communication and strong commitment to the company’s mission. Employees feel valued and heard.",
+            dept: "Engineering",
+            reviewer: "Anonymous Review"
+        },
+    ],
+    moreReviewsLink: "/chegg/reviews",
+    overviewBody: "Chegg is a leading student-first learning platform dedicated to improving student outcomes. It provides digital and physical textbook rentals, online tutoring, and other student services designed to make education more accessible and affordable. Chegg is focused on leveraging technology to support students in their academic journey, helping them master subjects, enhance their skills, and succeed in their careers.",
+    highlightLine: "Chegg was founded in 2005 and its current CEO is Dan Rosensweig. Since its inception, Chegg has grown to 2,400 employees worldwide.",
+    mission: "To improve learning outcomes by making education more accessible, affordable, and effective for students everywhere.",
+    vision: "Empowering students with digital tools and personalized support to help them succeed in their academic and professional journeys.",
+    values: "Students First, Always Learn, Operate with Integrity, Think Big, Own It.",
+    overviewPic: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/17407/17407-1662997047775.png",
+    articles: [
+        {
+            logo: "https://cdn.comparably.com/27579934/l/17407_logo_chegg.png",
+            articleTitle: "How Chegg is Revolutionizing Learning",
+            articleDate: "March 1st, 2023",
+            articleBio: "Chegg's AI-driven learning platform is changing the way students access education resources and support.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/67890/67890-1611677472418.png",
+            articleContent: "",
+            articleLink: "/chegg/article1"
+        },
+        {
+            logo: "https://cdn.comparably.com/27579934/l/17407_logo_chegg.png",
+            articleTitle: "Why Students Love Chegg",
+            articleDate: "April 10th, 2023",
+            articleBio: "Chegg continues to grow as a favorite platform among students for its affordability and ease of use.",
+            articleImg: "https://s3-us-west-1.amazonaws.com/companies.comparably.com/67890/67890-1611677472418.png",
+            articleContent: "",
+            articleLink: "/chegg/article2"
+        },
+    ],
+    salariesp1: "How much do people at Chegg get paid? See the latest salaries by department and job title. The average estimated annual salary, including base and bonus, at Chegg is $115,000, or $55 per hour, while the estimated median salary is $122,500, or $59 per hour. At Chegg, the highest paid job is a Senior Engineer at $230,000 annually, and the lowest is a Customer Service Representative at $45,000 annually. Average Chegg salaries by department include: Engineering at $135,000, Product at $120,000, Marketing at $110,000, and Operations at $105,000. Half of Chegg salaries are above $122,500.",
+    salariesp2: "900 employees at Chegg rank their Compensation in the Top 10% of similar-sized companies in the US (based on 2000 ratings) while 850 employees rank their Perks & Benefits in the Top 10% of similar-sized companies in the US (based on 1800 ratings).",
+    salariesp3: "Salaries contributed from Chegg employees include job titles like Senior Engineer, Product Manager, Data Analyst, and Marketing Manager. Comparably data has a total of 120 salary records from Chegg employees.",
+    salariesDate: "Last updated 18 days ago",
+};

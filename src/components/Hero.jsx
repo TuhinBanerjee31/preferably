@@ -25,7 +25,7 @@ const Hero = () => {
             <div><img src={c1l} /></div>
             
             <div className="self-center text-center px-5 flex flex-col gap-4 justify-center items-center">
-                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2024</h3>
+                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2025</h3>
                 <h1 className="text-2xl md:text-5xl uppercase font-medium tracking-wider">Best Company Work-Life Balance</h1>
                 <button className="button-89">Explore the list</button>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
             <div><img src={c2l} /></div>
             
             <div className="self-center text-center px-5 flex flex-col gap-4 justify-center items-center">
-                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2024</h3>
+                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2025</h3>
                 <h1 className="text-2xl md:text-5xl uppercase font-medium tracking-wider">Best Company Perks & Benefits</h1>
                 <button className="button-89">Explore the list</button>
             </div>
@@ -55,7 +55,7 @@ const Hero = () => {
             <div><img src={c3l} /></div>
             
             <div className="self-center text-center px-5 flex flex-col gap-4 justify-center items-center">
-                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2024</h3>
+                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2025</h3>
                 <h1 className="text-2xl md:text-5xl uppercase font-medium tracking-wider">Happiest Employees</h1>
                 <button className="button-89">Explore the list</button>
             </div>
@@ -70,7 +70,7 @@ const Hero = () => {
             <div><img src={c4l} /></div>
             
             <div className="self-center text-center px-5 flex flex-col gap-4 justify-center items-center">
-                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2024</h3>
+                <h3 className="text-lg md:text-3xl tracking-wider">Peferably | 2025</h3>
                 <h1 className="text-2xl md:text-5xl uppercase font-medium tracking-wider">Best Career Growth</h1>
                 <button className="button-89">Explore the list</button>
             </div>

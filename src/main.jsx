@@ -51,7 +51,7 @@ const router = createBrowserRouter(
       <Route path="/att" element={<Att />} />
       <Route path="/informatica" element={<Informatica />} />
       <Route path="/chewy" element={<Chewy />} />
-      <Route path="/siecorp" element={<Siecorp />} />
+      {/* <Route path="/siecorp" element={<Siecorp />} /> */}
       <Route path="/concentrix" element={<Concerntrix />} />
       <Route path="/chegg" element={<Chegg />} />
       <Route path="/salesforce" element={<Salesforce />} />

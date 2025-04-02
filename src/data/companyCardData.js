@@ -86,13 +86,13 @@ export const companyCardData = [
         redirectLink: "/chewy",
         location: "Plantation, FL"
     },
-    {
-        id: 13,
-        title: "Siecorp",
-        logo: siecorpLogo,
-        redirectLink: "/siecorp",
-        location: "Temasek Blvd, SG"
-    },
+    // {
+    //     id: 13,
+    //     title: "Siecorp",
+    //     logo: siecorpLogo,
+    //     redirectLink: "/siecorp",
+    //     location: "Temasek Blvd, SG"
+    // },
     {
         id: 14,
         title: "Concentrix",

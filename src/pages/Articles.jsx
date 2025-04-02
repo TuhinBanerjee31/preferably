@@ -103,11 +103,11 @@ const Articles = () => {
             ))}
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          {/* <div className="grid grid-cols-2 gap-4">
             {siecorpData.articles.map((item, index) => (
               <ArticleCard article={item} key={index} />
             ))}
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-2 gap-4">
             {salesforceData.articles.map((item, index) => (

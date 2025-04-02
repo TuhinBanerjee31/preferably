@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
         <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center justify-center">
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center tracking-widest">
-            © 2023{" "}
+            © 2025{" "}
             <Link reloadDocument to={"/"}>
               Jobsmentor™
             </Link>
